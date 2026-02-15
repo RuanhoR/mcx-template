@@ -1,0 +1,17 @@
+{
+  "name": "test",
+  "description": "test",
+  "mcVersion": "1.21.120",
+  "version": "0.0.1",
+  "minify": false,
+  "script": {
+    "main": "index.js",
+    "ui": true,
+    "lang": "mcx"
+  },
+  "outdir": {
+    "resources": "./dist/res",
+    "behavior": "./dist/dep",
+    "dist": "./dist.mcaddon"
+  }
+}

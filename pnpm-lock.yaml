@@ -1,0 +1,48 @@
+lockfileVersion: '9.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+importers:
+
+  .:
+    dependencies:
+      '@minecraft/server-ui':
+        specifier: 2.0.0
+        version: 2.0.0(@minecraft/vanilla-data@1.26.0)
+
+packages:
+
+  '@minecraft/common@1.2.0':
+    resolution: {integrity: sha512-JdmEq4P3Z/FtoBzhLijFgMSVFnFRrUoLwY8DHHrgtFo0mfLTOLTB1RErYjLMsA6b7BGVNxkX/pfFRiH7QZ0XwQ==}
+
+  '@minecraft/server-ui@2.0.0':
+    resolution: {integrity: sha512-K1xFK1OEJSNfIgyRElaoxDTW/nbEqjBp1YnUdyPCs4kGDglwoXNyFz3wzMOkvT04CJXSifZGcTJeWda4C6OkXw==}
+
+  '@minecraft/server@2.5.0':
+    resolution: {integrity: sha512-fh+1lByNo5tav75Xz0StOjBLUnWEQabg4K+RV7B7acGjdO5YkPnpXa2vw1ABuppgLuiBb2+E5letoCAj89bUBQ==}
+    peerDependencies:
+      '@minecraft/common': ^1.2.0
+      '@minecraft/vanilla-data': '>=1.20.70'
+
+  '@minecraft/vanilla-data@1.26.0':
+    resolution: {integrity: sha512-jFIXJXGW0SzVazD3h+PW378YJF937mCZRR+7REJben6M44+yuLPWSf32VVTlmTHJeVsX6XbVnxWY9xWud6iUig==}
+
+snapshots:
+
+  '@minecraft/common@1.2.0': {}
+
+  '@minecraft/server-ui@2.0.0(@minecraft/vanilla-data@1.26.0)':
+    dependencies:
+      '@minecraft/common': 1.2.0
+      '@minecraft/server': 2.5.0(@minecraft/common@1.2.0)(@minecraft/vanilla-data@1.26.0)
+    transitivePeerDependencies:
+      - '@minecraft/vanilla-data'
+
+  '@minecraft/server@2.5.0(@minecraft/common@1.2.0)(@minecraft/vanilla-data@1.26.0)':
+    dependencies:
+      '@minecraft/common': 1.2.0
+      '@minecraft/vanilla-data': 1.26.0
+
+  '@minecraft/vanilla-data@1.26.0': {}

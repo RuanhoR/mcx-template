@@ -1,0 +1,8 @@
+<Event @after>
+PlayerJoin = eventHandler
+</Event>
+<script>
+export const eventHandler = function(event) {
+  event.player.sendMessage("欢迎进入游戏")
+}
+</script>
