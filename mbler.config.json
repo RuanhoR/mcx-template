@@ -3,7 +3,7 @@
   "description": "test",
   "mcVersion": "1.21.120",
   "version": "0.0.1",
-  "minify": false,
+  "minify": true,
   "script": {
     "main": "index.js",
     "ui": true,

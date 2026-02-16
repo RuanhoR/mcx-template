@@ -13,6 +13,6 @@
   },
   "dependencies": {
     "@minecraft/server-ui": "2.0.0",
-    "@mbler/mcx": "0.0.2-beta.r3"
+    "@mbler/mcx": "0.0.2-beta.r5"
   }
 }

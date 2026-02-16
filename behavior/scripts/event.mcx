@@ -1,4 +1,5 @@
 <Event @after>
+McxExtendsBy = ./event$1.mcx
 PlayerJoin = eventHandler
 </Event>
 <script>
