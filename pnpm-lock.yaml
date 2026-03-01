@@ -1,48 +1,36 @@
-lockfileVersion: '9.0'
+lockfileVersion: '6.0'
 
 settings:
   autoInstallPeers: true
   excludeLinksFromLockfile: false
 
-importers:
-
-  .:
-    dependencies:
-      '@minecraft/server-ui':
-        specifier: 2.0.0
-        version: 2.0.0(@minecraft/vanilla-data@1.26.0)
+dependencies:
+  '@mbler/mcx':
+    specifier: 0.0.2-beta.r5
+    version: 0.0.2-beta.r5
+  '@minecraft/server':
+    specifier: 2.0.0
+    version: 2.0.0(@minecraft/vanilla-data@1.26.2)
 
 packages:
 
-  '@minecraft/common@1.2.0':
+  /@mbler/mcx@0.0.2-beta.r5:
+    resolution: {integrity: sha512-Yqa3WyXa1hF2iiSHJRBoAPSzdpaOrP4X8nHn+XkIKKrA6BCAngnXvflIDuEgXDNbJmfygsBBx3OY6PShTH607Q==}
+    dev: false
+
+  /@minecraft/common@1.2.0:
     resolution: {integrity: sha512-JdmEq4P3Z/FtoBzhLijFgMSVFnFRrUoLwY8DHHrgtFo0mfLTOLTB1RErYjLMsA6b7BGVNxkX/pfFRiH7QZ0XwQ==}
+    dev: false
 
-  '@minecraft/server-ui@2.0.0':
-    resolution: {integrity: sha512-K1xFK1OEJSNfIgyRElaoxDTW/nbEqjBp1YnUdyPCs4kGDglwoXNyFz3wzMOkvT04CJXSifZGcTJeWda4C6OkXw==}
-
-  '@minecraft/server@2.5.0':
-    resolution: {integrity: sha512-fh+1lByNo5tav75Xz0StOjBLUnWEQabg4K+RV7B7acGjdO5YkPnpXa2vw1ABuppgLuiBb2+E5letoCAj89bUBQ==}
+  /@minecraft/server@2.0.0(@minecraft/vanilla-data@1.26.2):
+    resolution: {integrity: sha512-X2LmT82eO0oCjOFaFgg6zoGenAUSyrG+YvIbe7/FSPj9hpMt4BtOIs7axoQUUvMx2NNbq8uEsnQadMMrDDBmUA==}
     peerDependencies:
-      '@minecraft/common': ^1.2.0
       '@minecraft/vanilla-data': '>=1.20.70'
-
-  '@minecraft/vanilla-data@1.26.0':
-    resolution: {integrity: sha512-jFIXJXGW0SzVazD3h+PW378YJF937mCZRR+7REJben6M44+yuLPWSf32VVTlmTHJeVsX6XbVnxWY9xWud6iUig==}
-
-snapshots:
-
-  '@minecraft/common@1.2.0': {}
-
-  '@minecraft/server-ui@2.0.0(@minecraft/vanilla-data@1.26.0)':
     dependencies:
       '@minecraft/common': 1.2.0
-      '@minecraft/server': 2.5.0(@minecraft/common@1.2.0)(@minecraft/vanilla-data@1.26.0)
-    transitivePeerDependencies:
-      - '@minecraft/vanilla-data'
+      '@minecraft/vanilla-data': 1.26.2
+    dev: false
 
-  '@minecraft/server@2.5.0(@minecraft/common@1.2.0)(@minecraft/vanilla-data@1.26.0)':
-    dependencies:
-      '@minecraft/common': 1.2.0
-      '@minecraft/vanilla-data': 1.26.0
-
-  '@minecraft/vanilla-data@1.26.0': {}
+  /@minecraft/vanilla-data@1.26.2:
+    resolution: {integrity: sha512-nxACCFgbcE9D5Z5vRnl/AtJljat7yC4vKzZ/t87iHqdersZlDhBzUnfBDH4d1F6Le5vgdSEUIJwUJxKR+Yc3+w==}
+    dev: false

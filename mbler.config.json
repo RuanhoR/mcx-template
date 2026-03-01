@@ -1,9 +1,9 @@
 {
-  "name": "test",
+  "name": "test-2",
   "description": "test",
   "mcVersion": "1.21.120",
   "version": "0.0.1",
-  "minify": true,
+  "minify": false,
   "script": {
     "main": "index.js",
     "ui": true,

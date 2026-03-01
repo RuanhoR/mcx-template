@@ -12,7 +12,7 @@
     "dev-build": "MBLER_BUILD_MODULE=dev mbler build"
   },
   "dependencies": {
-    "@minecraft/server-ui": "2.0.0",
+    "@minecraft/server": "2.0.0",
     "@mbler/mcx": "0.0.2-beta.r5"
   }
 }

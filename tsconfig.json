@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "module": "nodenext",
+    "noEmit": true,
+    "target": "esnext",
+    "lib": ["esnext"],
+    "types": [],
+    "sourceMap": true,
+    "declaration": true,
+    "declarationMap": false,
+    "noUncheckedIndexedAccess": true,
+    "exactOptionalPropertyTypes": true,
+    "allowJs": true,
+    "strict": true,
+    "moduleResolution": "nodenext",
+    "verbatimModuleSyntax": false,
+    "isolatedModules": true,
+    "noUncheckedSideEffectImports": true,
+    "moduleDetection": "force",
+    "skipLibCheck": true
+  },
+  "include": ["./behavior/scripts/**/*"]
+}
