@@ -3,12 +3,11 @@
   "description": "test",
   "version": "0.0.1",
   "engines": {
-    "node": ">=20.0.0"
+    "node": ">=18.0.0"
   },
   "scripts": {
-    "i-mbler": "npm i -g mbler@latest",
     "dev": "mbler dev",
-    "build": "MBLER_BUILD_MODULE=dist mbler build",
+    "build": "mcx-tsc && MBLER_BUILD_MODULE=dist mbler build",
     "dev-build": "MBLER_BUILD_MODULE=dev mbler build"
   },
   "dependencies": {

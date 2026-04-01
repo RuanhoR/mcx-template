@@ -1,9 +1,4 @@
-# MCX Template
-
-## language
-
-- [zh](./docs/zh/README.md)
-- [en](./docs/en/README.md)
+# mcx template
 
 ## How to use?
 
