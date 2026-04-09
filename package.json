@@ -6,7 +6,7 @@
     "node": ">=18.0.0"
   },
   "scripts": {
-    "dev": "mbler dev",
+    "dev": "mbler watch",
     "build": "mcx-tsc && BUILD_MODULE=release mbler build",
     "dev-build": "mbler build"
   },
