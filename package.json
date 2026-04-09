@@ -10,8 +10,9 @@
     "build": "mcx-tsc && BUILD_MODULE=release mbler build",
     "dev-build": "mbler build"
   },
+  "module": "module",
   "dependencies": {
-    "@minecraft/server": "2.0.0",
-    "@mbler/mcx": "0.0.2-beta.r5"
+    "@mbler/mcx": "0.0.2-beta.r7",
+    "@minecraft/server": "2.0.0"
   }
 }
