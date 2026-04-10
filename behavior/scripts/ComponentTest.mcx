@@ -1,0 +1,17 @@
+<Component>
+  <items>
+    <item id="test.json">item</item>
+  </items>
+</Component>
+<script>
+import { ItemComponent } from "@mbler/mcx-core";
+const item = new ItemComponent({
+  id: "demo:item",
+  format: "1.21.100",
+  components: {}
+});
+item.setName("Demo")
+export {
+  item
+}
+</script>
