@@ -3,7 +3,9 @@ McxExtendsBy = ./event$1.mcx
 PlayerJoin = eventHandler
 </Event>
 <script>
+import { add } from "./test.ts";
+add;
 export const eventHandler = function(event) {
-  event.player.sendMessage("欢迎进入游戏")
+  event.player.sendMessage("欢迎进入游戏 " + add(1, 10))
 }
 </script>
