@@ -10,12 +10,13 @@
     "build": "mcx-tsc && BUILD_MODULE=release mbler build",
     "dev-build": "mbler build"
   },
-  "module": "module",
+  "type": "commonjs",
   "dependencies": {
     "@mbler/mcx": "0.0.2-beta.r7",
     "@minecraft/server": "2.0.0"
   },
   "devDependencies": {
-    "@mbler/mcx-core": "0.0.5-alpha.r20260410.6"
+    "@mbler/mcx-core": "0.0.5-alpha.r20260410.6",
+    "mbler": "0.2.0-beta.r20260416.3"
   }
 }

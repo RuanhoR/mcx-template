@@ -5,13 +5,17 @@
 </Component>
 <script>
 import { ItemComponent } from "@mbler/mcx-core";
+import TestPng from "./test.png"
+import { component } from "./config.json"
 const item = new ItemComponent({
   id: "demo:item",
-  format: "1.21.100",
+  format: component.format,
   components: {}
 });
+// item.setName(TestPng.filePath);
+// item.setName(item.getId())
 item.setName("Demo")
 export {
-  item
+  item,
 }
 </script>

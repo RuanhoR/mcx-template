@@ -3,7 +3,7 @@
     "module": "esnext",
     "noEmit": true,
     "target": "esnext",
-    "types": [],
+    "types": ["@mbler/mcx-core/client"],
     "sourceMap": true,
     "declaration": false,
     "declarationMap": false,
