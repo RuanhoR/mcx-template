@@ -3,10 +3,10 @@
     <item id="test.json">item</item>
   </items>
 </Component>
-<script>
+<script lang="ts">
 import { ItemComponent } from "@mbler/mcx-core";
 import TestPng from "./test.png"
-import { component } from "./config.json"
+import { component } from "./../config/config.json"
 const item = new ItemComponent({
   id: "demo:item",
   format: component.format,

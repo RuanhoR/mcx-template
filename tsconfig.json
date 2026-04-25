@@ -3,7 +3,6 @@
     "module": "esnext",
     "noEmit": true,
     "target": "esnext",
-    "types": ["@mbler/mcx-core/client"],
     "sourceMap": true,
     "declaration": false,
     "declarationMap": false,
@@ -12,11 +11,14 @@
     "allowJs": true,
     "strict": true,
     "moduleResolution": "bundler",
+    "allowImportingTsExtensions": true,
     "verbatimModuleSyntax": false,
     "isolatedModules": true,
     "noUncheckedSideEffectImports": true,
     "moduleDetection": "force",
     "skipLibCheck": true
   },
-  "include": ["./behavior/scripts/**/*"]
+  "include": [
+    "./behavior/scripts/**/*"
+  ]
 }
