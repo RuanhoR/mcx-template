@@ -1,6 +1,6 @@
 
 <script lang="ts">
-import Event from "./event.mcx";
+import Event from "./event/event.mcx";
 Event.subscribe();
 </script>
 

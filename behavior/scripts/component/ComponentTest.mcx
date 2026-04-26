@@ -5,15 +5,13 @@
 </Component>
 <script lang="ts">
 import { ItemComponent } from "@mbler/mcx-core";
-import TestPng from "./test.png"
 import { component } from "./../config/config.json"
 const item = new ItemComponent({
   id: "demo:item",
+  name: "AAA",
   format: component.format,
   components: {}
 });
-// item.setName(TestPng.filePath);
-// item.setName(item.getId())
 item.setName("Demo")
 export {
   item,

@@ -1,6 +1,6 @@
 const { defineConfig } = require("mbler")
 module.exports = defineConfig({
-  name: 'mcx template project',
+  name: '@ruanhor/example',
   description: 'demo for mcx',
   mcVersion: '1.21.120',
   version: '0.0.1',
