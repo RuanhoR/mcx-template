@@ -19,8 +19,8 @@ importers:
         specifier: 0.0.7-alpha.r2
         version: 0.0.7-alpha.r2(@minecraft/vanilla-data@1.26.13)
       mbler:
-        specifier: 0.2.3-alpha.r1
-        version: 0.2.3-alpha.r1(@minecraft/vanilla-data@1.26.13)
+        specifier: 0.2.3-alpha.r4
+        version: 0.2.3-alpha.r4(@minecraft/vanilla-data@1.26.13)
 
 packages:
 
@@ -461,8 +461,8 @@ packages:
     resolution: {integrity: sha512-uCbIa8jWWmQZt4dSnEStkVC6gdakiinAm4PiGsywIkguF0eWMdcjDz0ECYhUolFU3pFLOev9VNPCEygydXnddg==}
     engines: {node: ^20.17.0 || >=22.9.0}
 
-  mbler@0.2.3-alpha.r1:
-    resolution: {integrity: sha512-sXZxIwd7Mhke4Qu5nF8dRehCgq51kss37I4UlGr3Ks0Ird/a3/yXxFGoLRgDE6wnSCAyR5PzaXPRobsL+ziUZQ==}
+  mbler@0.2.3-alpha.r4:
+    resolution: {integrity: sha512-8RY/VLbifMdNK2fPkysVLNqONHSJQcxDZQy0MnomxB+L/ntMt3DhTCmG3zGkZn5/Lsi9zUsAriTTJnCmX2vr9g==}
     engines: {node: '>=16.0.0'}
     hasBin: true
 
@@ -1017,7 +1017,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  mbler@0.2.3-alpha.r1(@minecraft/vanilla-data@1.26.13):
+  mbler@0.2.3-alpha.r4(@minecraft/vanilla-data@1.26.13):
     dependencies:
       '@mbler/mcx': 0.0.3-alpha.r1
       '@mbler/mcx-core': 0.0.6-alpha.r20260416.2(@minecraft/vanilla-data@1.26.13)

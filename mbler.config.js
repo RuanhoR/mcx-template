@@ -1,5 +1,5 @@
-const { defineConfig } = require("mbler")
-module.exports = defineConfig({
+import { defineConfig } from "mbler"
+export default defineConfig({
   name: '@ruanhor/example',
   description: 'demo for mcx',
   mcVersion: '1.21.120',
