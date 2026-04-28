@@ -5,13 +5,6 @@
 First install nodejs and npm
 
 Go [Nodejs](https://nodejs.org)
-
-Next, install `mbler`
-
-```bash
-npm i -g mbler
-```
-
 Then, clone this repo if you install git
 
 ```bash
@@ -23,6 +16,6 @@ if you can't install git, plase click `code` button and download zip
 Then, Build
 
 ```bash
-mbler -c .
-mbler build
+pnpm i
+pnpm build
 ```
