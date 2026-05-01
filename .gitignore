@@ -1,15 +1,6 @@
-# Nodejs 依赖
-node_modules/
-/test2/node_modules/
-dist
 
-# 运行数据
-/lib/data/path.db
-/lib/data/lang.db
-/lines.sh
+node_modules
 dist
-lib/data/cache
-.cache__mbler__
-.npmrc
-.cache__mbler__
 dist.mcaddon
+.mbler
+cache
