@@ -12,7 +12,17 @@ const item = new ItemComponent({
   format: component.format,
   components: {}
 });
-item.setName("Demo")
+item.setName("Demo");
+item.setDigger({
+  destroy_speeds: [
+    {
+      speed: 9999,
+      block: {
+        tags: "!q.any_tag('air')"
+      }
+    }
+  ]
+})
 export {
   item,
 }

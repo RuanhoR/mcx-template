@@ -2,7 +2,9 @@
 EntityHitBlock = default
  <!-- 100 tick only use one --></Event>
 <script lang="ts">
-export default function Handler(event: any) {
-  console.log(`${event.entity.typeId} break block`)
+import { EntityHitBlockAfterEvent } from "@minecraft/server";
+
+export default function Handler(event: EntityHitBlockAfterEvent) {
+  console.log(`${event.damagingEntity.typeId} break block`)
 }
 </script>
