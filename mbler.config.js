@@ -13,7 +13,8 @@ export default defineConfig({
     UseBeta: true
   },
   build: {
-    bundle: true
+    bundle: true,
+    cache: "file"
   },
   outdir: {
     resources: './dist/res',
