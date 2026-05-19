@@ -11,8 +11,6 @@ Then, clone this repo if you install git
 git clone https://github.com/RuanhoR/mcx-template.git
 ```
 
-if you can't install git, plase click `code` button and download zip
-
 Then, Build
 
 ```bash
