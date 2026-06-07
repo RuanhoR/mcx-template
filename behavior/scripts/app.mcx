@@ -1,8 +1,7 @@
 
 <script lang="ts">
-import { Event } from "@mbler/mcx";
 import event from "./event/event.mcx";
-(event as unknown as Event).subscribe();
+event.subscribe();
 </script>
 
 

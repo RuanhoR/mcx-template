@@ -14,7 +14,15 @@ export default defineConfig({
   },
   build: {
     bundle: true,
-    cache: "file"
+    cache: "file",
+    rollupPlugins: [
+      {
+        name: "debug",
+        resolveId(id, importer) {
+          if (process.env.MODEL == "debug") console.log(id, importer)
+        }
+      }
+    ]
   },
   outdir: {
     resources: './dist/res',

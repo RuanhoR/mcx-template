@@ -10,7 +10,7 @@
     "exactOptionalPropertyTypes": true,
     "allowJs": true,
     "types": [
-      "@mbler/mcx-core/client"
+      "mbler/client"
     ],
     "strict": true,
     "moduleResolution": "bundler",

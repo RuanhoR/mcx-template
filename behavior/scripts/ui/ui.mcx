@@ -1,0 +1,8 @@
+<Ui>
+  <button>{{ text }}</button>
+</Ui>
+<script lang="ts">
+export function click() {
+  console.log("Click Button")
+}
+</script>

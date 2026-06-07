@@ -5,14 +5,18 @@
 </Component>
 <script lang="ts">
 import { ItemComponent } from "@mbler/mcx-core";
-import { component } from "./../config/config.json"
+import { component } from "./../config/config.json";
+// @ts-ignore
+import icon from "../assets/268.png"
 const item = new ItemComponent({
-  id: "demo:item",
+  id: "demo:pwzaiqguxa",
   name: "AAA",
   format: component.format,
   components: {}
 });
 item.setName("Demo");
+item.setMaxStackSize(64);
+item.setIcon(icon)
 item.setDigger({
   destroy_speeds: [
     {

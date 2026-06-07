@@ -4,8 +4,12 @@ playerJoin = eventHandler
 </Event>
 <script lang="ts">
 import { PlayerJoinAfterEvent, world } from "@minecraft/server";
-
+import ui from "./../ui/ui.mcx";
+ui;
 export const eventHandler = function(event: PlayerJoinAfterEvent) {
   world.sendMessage(`${event.playerName} into game`)
+  ui.app.ui.show(world.getPlayers({
+  name: event.playerName
+  }), {})
 }
 </script>
