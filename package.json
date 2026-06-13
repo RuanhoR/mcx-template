@@ -18,6 +18,6 @@
   },
   "devDependencies": {
     "@mbler/mcx-core": "0.1.1",
-    "mbler": "0.2.7-rc.1"
+    "mbler": "0.2.7-rc.3"
   }
 }
