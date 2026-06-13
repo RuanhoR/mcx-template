@@ -13,6 +13,7 @@
   "type": "module",
   "dependencies": {
     "@mbler/mcx": "0.0.3-alpha.r1",
+    "@mbler/mcx-types": "0.0.4-rc.1",
     "@minecraft/server": "2.0.0"
   },
   "devDependencies": {

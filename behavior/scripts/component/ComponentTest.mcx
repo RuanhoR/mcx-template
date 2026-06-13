@@ -6,7 +6,6 @@
 <script lang="ts">
 import { ItemComponent } from "@mbler/mcx-core";
 import { component } from "./../config/config.json";
-// @ts-ignore
 import icon from "../assets/268.png"
 const item = new ItemComponent({
   id: "demo:pwzaiqguxa",
