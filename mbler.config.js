@@ -2,10 +2,10 @@
 import { defineConfig } from "mbler"
 export default defineConfig({
   name: '@ruanhor/example',
+  displayName: "Example Package",
   description: 'demo for mcx',
   mcVersion: '1.21.120',
-  version: '0.0.1',
-  minify: false,
+  version: '0.0.2',
   script: {
     main: 'index.ts',
     ui: true,

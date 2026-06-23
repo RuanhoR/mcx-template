@@ -8,6 +8,6 @@ import ui from "./../ui/ui.mcx";
 export const eventHandler = function(event: PlayerJoinAfterEvent) {
   world.sendMessage(`${event.playerName} into game`)
   const [player] = world.getPlayers({ name: event.playerName })
-  if (player) ui.app.ui.show(player, {})
+  if (player) ui.app.ui.show(player as any, {})
 }
 </script>
