@@ -1,4 +1,4 @@
-/**@ts-check */
+// @ts-check
 import { defineConfig } from "mbler"
 export default defineConfig({
   name: '@ruanhor/example',
@@ -6,6 +6,7 @@ export default defineConfig({
   description: 'demo for mcx',
   mcVersion: '1.21.120',
   version: '0.0.2',
+  minify: "oxc",
   script: {
     main: 'index.ts',
     ui: true,
@@ -14,15 +15,7 @@ export default defineConfig({
   },
   build: {
     bundle: true,
-    cache: "file",
-    rollupPlugins: [
-      {
-        name: "debug",
-        resolveId(id, importer) {
-          if (process.env.MODEL == "debug") console.log(id, importer)
-        }
-      }
-    ]
+    cache: "none"
   },
   outdir: {
     resources: './dist/res',
