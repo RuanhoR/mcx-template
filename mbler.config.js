@@ -4,7 +4,6 @@ export default defineConfig({
   displayName: "Example Package",
   description: 'demo for mcx',
   mcVersion: '1.21.120',
-  version: '0.0.2',
   minify: "oxc",
   script: {
     main: 'index.ts',
