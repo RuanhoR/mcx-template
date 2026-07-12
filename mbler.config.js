@@ -1,7 +1,6 @@
 // @ts-check
 import { defineConfig } from "mbler"
 export default defineConfig({
-  name: '@ruanhor/example',
   displayName: "Example Package",
   description: 'demo for mcx',
   mcVersion: '1.21.120',

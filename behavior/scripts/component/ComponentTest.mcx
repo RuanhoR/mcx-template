@@ -15,7 +15,7 @@ const item = new ItemComponent({
 });
 item.setName("Demo");
 item.setMaxStackSize(64);
-item.setIcon(icon)
+item.setIcon(icon);
 item.setDigger({
   destroy_speeds: [
     {

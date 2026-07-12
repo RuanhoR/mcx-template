@@ -9,9 +9,6 @@
     "noUncheckedIndexedAccess": true,
     "exactOptionalPropertyTypes": true,
     "allowJs": true,
-    "types": [
-      "mbler/client"
-    ],
     "strict": true,
     "moduleResolution": "bundler",
     "allowImportingTsExtensions": true,
