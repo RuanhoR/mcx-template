@@ -2,7 +2,6 @@
 <script lang="ts">
 import event from "./event/event.mcx";
 event.subscribe();
-e
 </script>
 
 
