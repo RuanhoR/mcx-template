@@ -1,0 +1,37 @@
+<Ui setup>
+  <title>玩家设置</title>
+  <input :value="name" placeholderText="输入昵称">昵称 {{ name }}</input>
+  <toggle :value="online">在线状态</toggle>
+  <dropdown :option="options" :value="selIdx">选择角色</dropdown>
+  <slider :value="volume" min="0" max="100">音量 {{ volume }}</slider>
+  <divider></divider>
+  <button :click="submit">保存</button>
+  <button :click="close">关闭</button>
+</Ui>
+<script lang="ts">
+import { ref, onStartup, onMounted, defineProp } from "@mbler/mcx";
+
+const name = ref("Steve");
+const online = ref(true);
+const volume = ref(60);
+const selIdx = ref(0);
+const options = ["战士", "法师", "射手"];
+
+const title = defineProp("默认标题");
+
+onStartup(() => {
+  console.log("表单首次打开");
+});
+
+onMounted(() => {
+  console.log("每次 show 都会触发");
+});
+
+function submit() {
+  console.log(`保存: ${name.value} / ${options[selIdx.value]} / ${volume.value}`);
+}
+
+function close() {
+  console.log("关闭表单");
+}
+</script>

@@ -8,8 +8,8 @@ import { ItemComponent } from "@mbler/mcx-component";
 import { component } from "./../config/config.json";
 import icon from "../assets/268.png"
 const item = new ItemComponent({
-  id: "demo:pwzaiqguxa",
-  name: "AAA",
+  id: "demo:test",
+  name: "Demo Test",
   format: component.format,
   components: {}
 });

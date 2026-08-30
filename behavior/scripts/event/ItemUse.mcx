@@ -1,0 +1,13 @@
+<Event @after>
+itemUse = onItemUse
+</Event>
+<script lang="ts">
+import { ItemUseAfterEvent, world } from "@minecraft/server";
+
+const DEMO_ITEM = "demo:test";
+
+export const onItemUse = function (event: ItemUseAfterEvent) {
+  if (event.itemStack?.typeId !== DEMO_ITEM) return;
+  world.sendMessage("Hello from mbler & mcx");
+};
+</script>
